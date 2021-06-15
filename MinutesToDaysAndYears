@@ -1,0 +1,14 @@
+import java.util.scanner;
+
+public class MinutesToDaysAndYears{
+    public static void main (string[] args){
+         scanner input = new scanner (system.in);
+         System.out.println("Enter number of minutes :");
+         int minutes = input.nextint();
+         
+         int years = minutes / 525600;
+         int days =  minutes / 1440;
+         
+         system.out.println(minutes + "minutes is " + years +"years & "+ days +"days");
+    }
+}
